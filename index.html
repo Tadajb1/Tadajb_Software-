@@ -1,0 +1,89 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+  <title>Tadajb Software</title>
+  <style>
+    body {
+      background-color: blue;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+      background-color: green;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    #current-time {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tadajb Software</h1>
+  </header>
+  
+  <main>
+    <h2>Welcome to Tadajb Software</h2>
+    <p>Welcome to Tadajb Software, an educational website dedicated to providing quality learning resources to students around the world. My name is Tada Musa JB, and I am thrilled to have you here.
+At Tadajb Software, we believe that education is the key to unlocking one full potential. We understand that learning can be challenging, but we are committed to making it easier and more enjoyable for you. Our website offers a wide range of resources, including tutorials, quizzes, and study guides, covering various subjects and levels of difficulty.
+We hope that our website will become your go-to source for all your learning needs. Whether you are a student looking for help with your homework or a teacher seeking new teaching materials, we have something for everyone. Our team of educators and experts work tirelessly to ensure that all our resources are accurate, up-to-date, and engaging.
+So, take a look around, explore our website, and start learning today. If you have any questions or suggestions, please feel free to contact us. We value your feedback and are always open to improving our services to better serve you.
+Once again, welcome to Tadajb Software. We look forward to helping you achieve your academic goals!</p>
+    
+    <h3>Contact Information</h3>
+    <p>Phone number: +237671466026</p>
+    <p>Email: tadamusajb1@gmail.com</p>
+    
+    <h3>CEO Information</h3>
+    <p>Tada Musa JB is a young software engineering student and a programmer from Jubrilli, Nigeria. Tada showed an early interest in technology and education. He attended Jubrilli Nursery School around 2007 and later moved on to Jubrilli primary school francaphone in Cameroon. However, due to the Boko Haram insurgency, Tada was forced to seek refuge in Minawao Camp, Cameroon.
+Despite the challenges he faced, Tada remained dedicated to his education. He started schooling in Cameroon around 2015 and is currently in Lower sixth science at GBHS Mokolo. His passion for technology and education led him to create Tadajb Software, an educational website that aims to provide quality learning resources to students around the world.
+The story of Tada is of resilience and determination. His journey from a young boy in a refugee camp to a successful young web developer is an inspiration to many. Through Tadajb Software, he hopes to make a positive impact on the lives of others by providing them with the tools they need to succeed in their studies. To conclude this, he is showing his gratitude to Enginneer Garba John aka Amchide, for his continous support and encouragements in the world of technology. Thanks for reading. </p>
+    <p>©Tada Musa JB</p>
+    
+    <p id="current-time"></p>
+  </main>
+  
+  <footer>
+    <p>&copy; Tadajb Software ~ All rights reserved 26 January 2023 - <span id="current-date"></span></p>
+  </footer>
+  <script>
+    // Get current date and time
+    function getCurrentDateTime() {
+      var now = new Date();
+      var date = now.toDateString();
+      var time = now.toLocaleTimeString();
+      
+      document.getElementById("current-date").innerHTML = date;
+      document.getElementById("current-time").innerHTML = time;
+    }
+    
+    // Call the function when the page loads
+    window.onload = getCurrentDateTime;
+  </script>
+  
+</body>
+</html>￼Enter
